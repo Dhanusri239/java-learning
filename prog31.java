@@ -10,7 +10,7 @@ class prog31{
         }
         else{
             for(int i=2;i<=num;i++){
-                if(num%2==0){
+                if(num%i==0){
                     ifprime=false;
                     break;
                 }
